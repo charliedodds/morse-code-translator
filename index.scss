@@ -2,4 +2,56 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: Helvetica, sans-serif;
+	text-align: center;
+}
+
+html {
+	font-size: 62.5%;
+
+	body {
+		background-color: #eee;
+		color: #222;
+
+		header {
+			margin: 3rem 0 2rem;
+
+			h1 {
+				font-size: 6rem;
+			}
+		}
+		.translator {
+			h2 {
+				font-size: 2.6rem;
+			}
+
+			p {
+				font-size: 2rem;
+				margin: 1rem;
+			}
+
+			form {
+				max-width: 300px;
+				margin: auto;
+				padding: 1rem;
+				display: flex;
+				flex-direction: column;
+
+				input,
+				button {
+					margin: 1rem;
+					padding: 1rem;
+				}
+
+				input {
+					text-align: left;
+				}
+
+				button {
+					cursor: pointer;
+					font-size: 2rem;
+				}
+			}
+		}
+	}
 }
